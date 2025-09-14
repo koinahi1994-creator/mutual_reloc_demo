@@ -1,16 +1,18 @@
-// Replace the below config with your actual Firebase config
+// src/firebaseConfig.js
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
+// Your actual Firebase project config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  measurementId: "YOUR_MEASUREMENT_ID"
+  apiKey: "AIzaSyBXanzu0YWrPToINnWa-NC7j9k41HmX6kA",
+  authDomain: "mutualreloc.firebaseapp.com",
+  projectId: "mutualreloc",
+  storageBucket: "mutualreloc.firebasestorage.app",
+  messagingSenderId: "449023461115",
+  appId: "1:449023461115:web:5a6d7009b948c7d082925e",
+  measurementId: "G-D38VQNHGC2"
 };
 
+// Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const analytics = getAnalytics(app);
