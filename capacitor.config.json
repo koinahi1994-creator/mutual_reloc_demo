@@ -1,0 +1,6 @@
+{
+  "appId": "com.mutualreloc.app",
+  "appName": "MutualReloc",
+  "webDir": "src",
+  "bundledWebRuntime": false
+}

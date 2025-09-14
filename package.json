@@ -1,0 +1,13 @@
+{
+  "name": "mutual-reloc-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "prepare-web": "echo 'Place your frontend build in src/'",
+    "build-android-local": "npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "@capacitor/android": "^5.0.0",
+    "firebase": "^10.0.0"
+  }
+}
